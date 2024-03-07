@@ -1,0 +1,142 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    color: hsl(33, 24%, 91%);
+}
+
+#content {
+    background-color: white;
+    
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+#content img {
+    width: 100%;
+}
+
+#intro {
+    margin: 15px;
+}
+
+#intro h1 {
+    font-family: "Young Serif", serif;
+    font-weight:400 ;
+}
+
+#intro p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+#time {
+    background-color: hsl(330, 100%, 98%);
+    font-family: "Outfit", sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#time h2 {
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+#time li::marker {
+    color:hsl(332, 51%, 32%) ;
+}
+
+#time li {
+    font-weight: 400;
+    padding-bottom: 8px;
+    padding-left: 10px;
+}
+
+#ingredients h2 {
+    font-family:"Young Serif", serif ;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    padding-left: 20px;
+}
+
+#ingredients li::marker {color:hsl(332, 51%, 32%) ;}
+
+#ingredients li {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-bottom: 8px;
+}
+
+#instructions h2 {
+    font-family:"Young Serif", serif ;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    padding-left: 20px;
+}
+
+#instructions li::marker {color:hsl(332, 51%, 32%) ;}
+
+#instructions li {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+#nutrition h2 {
+    font-family:"Young Serif", serif ;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+    padding-left: 10px;
+}
+
+#nutrition p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+#nutrition table {
+    border-collapse: collapse;
+    width: 100%;
+    padding-left: 10px;
+}
+
+#nutrition td {
+  padding: 10px;
+  padding-left: 20px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#nutrition tr:last-child td {
+    border-bottom: 0;
+}
+
+#nutrition td:nth-child(2) {
+    color:hsl(14, 45%, 36%) ;
+}
+
+@media only screen and (min-width: 600px) {
+    #content {
+      width: 50%;
+      margin-left: 25%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      border-radius: 20px;
+      padding: 25px;
+    }
+
+    #content img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
